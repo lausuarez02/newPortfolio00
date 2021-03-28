@@ -1,0 +1,83 @@
+.black {
+    margin-top: 3%;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 80px;
+    font-family: 'Yatra One', cursive;
+    
+}
+.black a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Yatra One', cursive;
+}
+.black a:hover{
+    text-decoration: underline;
+ 
+}
+.Lautaro{
+    height: 40px;
+    font-family: 'Yatra One', cursive;
+}
+.lau{
+    height: 500px;
+    margin-left:60% ;
+    margin-top: -30%;
+}
+.container {
+    border: solid 2px black;
+    width: 50%;
+    text-align: center;
+    margin-left: 3%;
+    font-family: 'Yatra One', cursive;
+    
+    
+}
+.container h1{
+    font-size:30px;
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+}
+.container p{
+    font-size: 20px;
+    font-family: 'Yatra One', cursive;
+
+}
+h2{
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+}
+.icon0{
+    width: 70px;
+}
+.lista0{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 1000px;
+    border: solid 2px black;
+    margin-left: 8%;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.Lautaros{
+    font-size: 50px;
+    margin: solid 2px red;
+}
+@media only screen and (max-width: 850px) {
+   
+    .lista0{
+     display: block;
+     margin-left:35%;
+     padding:20px;
+     width: 80px;
+}
+}

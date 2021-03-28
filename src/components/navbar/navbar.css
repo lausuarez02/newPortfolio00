@@ -1,0 +1,82 @@
+.navbar{
+    color:black;
+    background-color: white;
+    font-family: 'Yatra One', cursive;
+}
+
+.black {
+    margin-top: 2%;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 80px;
+
+
+    
+}
+.black a{
+    color: black;
+    text-decoration: none;
+}
+.black a:hover{
+    text-decoration: underline;
+ 
+}
+.raya{
+    border-bottom: solid 2px black;
+}
+.Lautaro{
+    height: 40px;
+}
+
+.nav-links{
+    text-decoration: none;
+}
+#typew{   
+     font-size: 50px;
+     margin-left: 40px;
+
+}
+.resume{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin-left: 3%;
+    font-size: 30px;
+    margin-top: 50%;
+
+    
+    
+    
+}
+.resume:hover{
+    text-decoration: underline;
+}
+.image{
+    border-radius: 50%;
+    height: 300px;
+    margin-left: 70%;
+    
+    margin-top: -8%;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.linkedin{
+    height: 30px;
+    margin-left: 3200%;
+    
+}
+.github{
+    height: 30px;
+    margin-left: 3200%;
+}
+

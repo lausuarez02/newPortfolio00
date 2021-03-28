@@ -1,0 +1,73 @@
+
+.navBar{
+  display: none;
+  font-family: 'Yatra One', cursive;
+}
+.navBar button{
+  display: none;
+  font-family: 'Yatra One', cursive;
+}
+.menuNav {
+  display: none;
+  font-family: 'Yatra One', cursive;
+}
+@media only screen and (max-width: 850px){
+.navBar {
+    position: relative;
+    display: block;
+  }
+  
+  .navBar button {
+    position: fixed;
+    left: 20px;
+    top: 40px;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .menuNav {
+    display: block;
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0; 
+    color: blanchedalmond;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin-left: -20%;
+    background-color:rgba(238, 229, 229, 0.5);
+    overflow: hidden;
+    max-width: 250px;
+    z-index: 9;
+  }
+  
+  .menuNav.showMenu {
+    width: 100%;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a {
+    display: block;
+    padding: 0px 40px;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .menuNav li:first-child {
+    margin-top: 7rem;
+  }}

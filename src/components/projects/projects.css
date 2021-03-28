@@ -1,0 +1,100 @@
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Yatra One', cursive;
+}
+.grid-container{
+    
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    font-family: 'Yatra One', cursive;
+  
+    
+}
+.title02{
+    display: none;
+}
+.back{
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(209, 204, 204);
+}
+@media only screen and (max-width: 850px) {
+    .lau{
+        height: 350px;
+        margin-left:12% ;
+        margin-top: -10%;
+    }
+    .container {
+        border: solid 2px black;
+        width: 95%;
+        text-align: center;
+        margin-left: 3%;
+        font-family: 'Yatra One', cursive;   
+    }
+    .image{
+        border-radius: 50%;
+        height: 200px;
+        margin-left: 35%;
+        
+        margin-top: 9%;
+    }
+    #typew{   
+        font-size: 30px;
+        margin-left: 40px;
+        margin-top: 50px;
+   
+   }
+    .title02{
+        display: block;
+        font-family: 'Yatra One', cursive;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+
+
+    }
+    .lista{
+        width: -20px;
+    }
+    .linkedin{
+        height: 30px;
+        margin-left: 300%;
+        
+    }
+    .github{
+        height: 30px;
+        margin-left: 400%;
+    }
+    
+    .black{
+        display: none;
+    }
+ 
+    .grid-container{
+    display:block;
+    margin: auto;
+    width: 60%;
+
+ 
+    }
+   }
+.img001{
+    width: 280px;
+    height: 280px;
+    justify-content: center;
+    filter: blur(0.5px);
+    box-shadow: 4px 4px 2px gray;
+
+}
+.img001:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+.container00{
+    width: 280px;
+    padding: 1%;
+    
+    
+}
