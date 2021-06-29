@@ -6,11 +6,11 @@ import AboutMe from "./components/aboutMe/aboutMe";
 import Projects from "./components/projects/projects";
 //import Hamburger from "./components/hamburguer/hamburguer.js";
 
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="App">
        <Router>
          
          <Switch>

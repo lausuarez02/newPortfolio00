@@ -35,14 +35,46 @@ function Projects(){
 <br></br>
 <br></br>
 
-        <div className="grid-container">
-            <div className="container00"><img src={img} className="img001"/><p>Budget app using Vainilla JavaScript <br/><span className="back">JavaScript</span> <span className="back">Css</span></p></div>
-            <div><img src={img0} className="img001" alt="Projects"/><p>Basically a To do List. <br/><span className="back">JavaScript</span> <span className="back">React Router</span></p></div>
-            <div><img src={img01} className="img001" alt="Projects"/><p>The First portFolio I made <br/><span className="back">JavaScript</span> <span className="back">HTML</span> <span className="back">Css</span></p></div>
-            <div><img src={img02} className="img001" alt="Projects"/><p>WebPage to an ISP <br/><span className="back">JavaScript</span> <span className="back">HTML</span> <span className="back">Css</span></p></div>
-            <div><img src={img03} className="img001" alt="Projects" /><p>Chat Room, I did not do it fully <br/><span className="back">ReactJs</span> <span className="back">HTML</span> <span className="back">Css</span> <span className="back">express</span><span className="back">socket.io</span>
-            <span className="back">Node</span></p></div>
-        </div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src={img} class="card-img-top" alt={img}/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src={img0} class="card-img-top" alt={img0}/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src={img01} class="card-img-top" alt={img01}/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src={img02} class="card-img-top" alt={img02}/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+         
+    
         <div className="raya"></div>
                   
                   <ul className="lista"><li><a href="https://github.com/lausuarez02"><img src={imggg} className="github" alt="gitHub"></img></a></li>
