@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {Link} from "react-router-dom";
 //import Button from "../Button/Button";
 import "./navbar.css";
-import img from "../photos/WhatsApp_Image_2021-02-18_at_16.14.27-removebg-preview.png";
+import img from "../photos/7a0c49d.jpg";
 import imgg from "../files/linkedin.svg";
 import imggg from "../files/github.svg";
 //import imgggg from "../files/Lautaro.png";
