@@ -1,3 +1,14 @@
+## Still in production link here https://lausuarez02.github.io/newPortfolio00/#/
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
